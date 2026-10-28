@@ -1,0 +1,2035 @@
+{
+  "input_kind": "synthetic candles + simulated accounts",
+  "accounts": [
+    {
+      "account": "MT5-SIM-1",
+      "enabled": true,
+      "position": 2,
+      "ledger_position": 2,
+      "submissions": 5,
+      "distinct_order_ids": 5,
+      "paper_equity": 10007.027
+    },
+    {
+      "account": "MT5-SIM-2",
+      "enabled": true,
+      "position": 2,
+      "ledger_position": 2,
+      "submissions": 5,
+      "distinct_order_ids": 5,
+      "paper_equity": 10007.027
+    },
+    {
+      "account": "MT5-SIM-3",
+      "enabled": true,
+      "position": 2,
+      "ledger_position": 2,
+      "submissions": 5,
+      "distinct_order_ids": 5,
+      "paper_equity": 10004.5522
+    },
+    {
+      "account": "MT5-SIM-4",
+      "enabled": true,
+      "position": 2,
+      "ledger_position": 2,
+      "submissions": 5,
+      "distinct_order_ids": 5,
+      "paper_equity": 10007.027
+    },
+    {
+      "account": "MT5-SIM-5",
+      "enabled": false,
+      "position": 0,
+      "ledger_position": 0,
+      "submissions": 0,
+      "distinct_order_ids": 0,
+      "paper_equity": 10000.0
+    },
+    {
+      "account": "BINANCE-SIM",
+      "enabled": true,
+      "position": 2,
+      "ledger_position": 2,
+      "submissions": 5,
+      "distinct_order_ids": 5,
+      "paper_equity": 10007.027
+    },
+    {
+      "account": "BINGX-SIM",
+      "enabled": true,
+      "position": 2,
+      "ledger_position": 2,
+      "submissions": 6,
+      "distinct_order_ids": 6,
+      "paper_equity": 10006.9292
+    }
+  ],
+  "timeline": [
+    {
+      "signal": "bar-1700000420",
+      "price": 102.4701,
+      "target": 2,
+      "reason": "moving-average entry",
+      "outcomes": {
+        "MT5-SIM-1": "FILLED",
+        "MT5-SIM-2": "FILLED",
+        "MT5-SIM-3": "FILLED",
+        "MT5-SIM-4": "FILLED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "UNKNOWN",
+        "BINGX-SIM": "REJECTED"
+      },
+      "replay": {
+        "MT5-SIM-1": "DEDUPLICATED",
+        "MT5-SIM-2": "DEDUPLICATED",
+        "MT5-SIM-3": "DEDUPLICATED",
+        "MT5-SIM-4": "DEDUPLICATED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "DEDUPLICATED",
+        "BINGX-SIM": "DEDUPLICATED"
+      }
+    },
+    {
+      "signal": "bar-1700000480",
+      "price": 102.519,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "FILLED"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "DEDUPLICATED"
+      }
+    },
+    {
+      "signal": "bar-1700000540",
+      "price": 102.4722,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700000600",
+      "price": 102.3323,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700000660",
+      "price": 102.1054,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700000720",
+      "price": 101.8011,
+      "target": 0,
+      "reason": "moving-average exit",
+      "outcomes": {
+        "MT5-SIM-1": "FILLED",
+        "MT5-SIM-2": "FILLED",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "FILLED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "FILLED",
+        "BINGX-SIM": "FILLED"
+      },
+      "replay": {
+        "MT5-SIM-1": "DEDUPLICATED",
+        "MT5-SIM-2": "DEDUPLICATED",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "DEDUPLICATED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "DEDUPLICATED",
+        "BINGX-SIM": "DEDUPLICATED"
+      }
+    },
+    {
+      "signal": "bar-1700000780",
+      "price": 101.4322,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700000840",
+      "price": 101.014,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "HELD",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700000900",
+      "price": 100.5637,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "FILLED",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "DEDUPLICATED",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700000960",
+      "price": 100.0999,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001020",
+      "price": 99.6417,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001080",
+      "price": 99.208,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001140",
+      "price": 98.8165,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001200",
+      "price": 98.4837,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001260",
+      "price": 98.2232,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001320",
+      "price": 98.0462,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001380",
+      "price": 97.9601,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001440",
+      "price": 97.9692,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001500",
+      "price": 98.0736,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001560",
+      "price": 98.2697,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001620",
+      "price": 98.5504,
+      "target": 2,
+      "reason": "moving-average entry",
+      "outcomes": {
+        "MT5-SIM-1": "FILLED",
+        "MT5-SIM-2": "FILLED",
+        "MT5-SIM-3": "FILLED",
+        "MT5-SIM-4": "FILLED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "FILLED",
+        "BINGX-SIM": "FILLED"
+      },
+      "replay": {
+        "MT5-SIM-1": "DEDUPLICATED",
+        "MT5-SIM-2": "DEDUPLICATED",
+        "MT5-SIM-3": "DEDUPLICATED",
+        "MT5-SIM-4": "DEDUPLICATED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "DEDUPLICATED",
+        "BINGX-SIM": "DEDUPLICATED"
+      }
+    },
+    {
+      "signal": "bar-1700001680",
+      "price": 98.905,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001740",
+      "price": 99.32,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001800",
+      "price": 99.7794,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001860",
+      "price": 100.2656,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001920",
+      "price": 100.7597,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700001980",
+      "price": 101.2427,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002040",
+      "price": 101.6959,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002100",
+      "price": 102.1018,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002160",
+      "price": 102.4448,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002220",
+      "price": 102.7119,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002280",
+      "price": 102.893,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002340",
+      "price": 102.9815,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002400",
+      "price": 102.9745,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002460",
+      "price": 102.8728,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002520",
+      "price": 102.681,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002580",
+      "price": 102.4076,
+      "target": 0,
+      "reason": "moving-average exit",
+      "outcomes": {
+        "MT5-SIM-1": "FILLED",
+        "MT5-SIM-2": "FILLED",
+        "MT5-SIM-3": "FILLED",
+        "MT5-SIM-4": "FILLED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "FILLED",
+        "BINGX-SIM": "FILLED"
+      },
+      "replay": {
+        "MT5-SIM-1": "DEDUPLICATED",
+        "MT5-SIM-2": "DEDUPLICATED",
+        "MT5-SIM-3": "DEDUPLICATED",
+        "MT5-SIM-4": "DEDUPLICATED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "DEDUPLICATED",
+        "BINGX-SIM": "DEDUPLICATED"
+      }
+    },
+    {
+      "signal": "bar-1700002640",
+      "price": 102.0638,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002700",
+      "price": 101.6641,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002760",
+      "price": 101.2249,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002820",
+      "price": 100.7645,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002880",
+      "price": 100.3016,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700002940",
+      "price": 99.8555,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003000",
+      "price": 99.4443,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003060",
+      "price": 99.0853,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003120",
+      "price": 98.7932,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003180",
+      "price": 98.5803,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003240",
+      "price": 98.4558,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003300",
+      "price": 98.425,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003360",
+      "price": 98.49,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003420",
+      "price": 98.6486,
+      "target": 0,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    },
+    {
+      "signal": "bar-1700003480",
+      "price": 98.8952,
+      "target": 2,
+      "reason": "moving-average entry",
+      "outcomes": {
+        "MT5-SIM-1": "FILLED",
+        "MT5-SIM-2": "FILLED",
+        "MT5-SIM-3": "FILLED",
+        "MT5-SIM-4": "FILLED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "FILLED",
+        "BINGX-SIM": "FILLED"
+      },
+      "replay": {
+        "MT5-SIM-1": "DEDUPLICATED",
+        "MT5-SIM-2": "DEDUPLICATED",
+        "MT5-SIM-3": "DEDUPLICATED",
+        "MT5-SIM-4": "DEDUPLICATED",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "DEDUPLICATED",
+        "BINGX-SIM": "DEDUPLICATED"
+      }
+    },
+    {
+      "signal": "bar-1700003540",
+      "price": 99.2205,
+      "target": 2,
+      "reason": "hold",
+      "outcomes": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      },
+      "replay": {
+        "MT5-SIM-1": "AT_TARGET",
+        "MT5-SIM-2": "AT_TARGET",
+        "MT5-SIM-3": "AT_TARGET",
+        "MT5-SIM-4": "AT_TARGET",
+        "MT5-SIM-5": "DISABLED",
+        "BINANCE-SIM": "AT_TARGET",
+        "BINGX-SIM": "AT_TARGET"
+      }
+    }
+  ],
+  "events": [
+    {
+      "account": "MT5-SIM-1",
+      "event": "FILLED",
+      "signal": "bar-1700000420",
+      "delta": 2,
+      "price": 102.4701
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "FILLED",
+      "signal": "bar-1700000420",
+      "delta": 2,
+      "price": 102.4701
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "FILLED",
+      "signal": "bar-1700000420",
+      "delta": 2,
+      "price": 102.4701
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "FILLED",
+      "signal": "bar-1700000420",
+      "delta": 2,
+      "price": 102.4701
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "UNKNOWN",
+      "signal": "bar-1700000420"
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "REJECTED",
+      "signal": "bar-1700000420",
+      "delta": 2,
+      "price": 102.4701
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000420"
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000420"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000420"
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000420"
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "RECOVERED",
+      "signal": "bar-1700000420",
+      "status": "FILLED"
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000420"
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000420"
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700000480",
+      "delta": 2,
+      "price": 102.519
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000480"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000600",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000600",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000660",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000660",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "FILLED",
+      "signal": "bar-1700000720",
+      "delta": -2,
+      "price": 101.8011
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "FILLED",
+      "signal": "bar-1700000720",
+      "delta": -2,
+      "price": 101.8011
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000720",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "FILLED",
+      "signal": "bar-1700000720",
+      "delta": -2,
+      "price": 101.8011
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700000720",
+      "delta": -2,
+      "price": 101.8011
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700000720",
+      "delta": -2,
+      "price": 101.8011
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000720"
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000720"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000720",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000720"
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000720"
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000720"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000780",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000780",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000840",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "HELD",
+      "signal": "bar-1700000840",
+      "reason": "Simulated account disconnected"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "FILLED",
+      "signal": "bar-1700000900",
+      "delta": -2,
+      "price": 100.5637
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700000900"
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "FILLED",
+      "signal": "bar-1700001620",
+      "delta": 2,
+      "price": 98.5504
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "FILLED",
+      "signal": "bar-1700001620",
+      "delta": 2,
+      "price": 98.5504
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "FILLED",
+      "signal": "bar-1700001620",
+      "delta": 2,
+      "price": 98.5504
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "FILLED",
+      "signal": "bar-1700001620",
+      "delta": 2,
+      "price": 98.5504
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700001620",
+      "delta": 2,
+      "price": 98.5504
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700001620",
+      "delta": 2,
+      "price": 98.5504
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700001620"
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700001620"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700001620"
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700001620"
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700001620"
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700001620"
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "FILLED",
+      "signal": "bar-1700002580",
+      "delta": -2,
+      "price": 102.4076
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "FILLED",
+      "signal": "bar-1700002580",
+      "delta": -2,
+      "price": 102.4076
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "FILLED",
+      "signal": "bar-1700002580",
+      "delta": -2,
+      "price": 102.4076
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "FILLED",
+      "signal": "bar-1700002580",
+      "delta": -2,
+      "price": 102.4076
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700002580",
+      "delta": -2,
+      "price": 102.4076
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700002580",
+      "delta": -2,
+      "price": 102.4076
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700002580"
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700002580"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700002580"
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700002580"
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700002580"
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700002580"
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "FILLED",
+      "signal": "bar-1700003480",
+      "delta": 2,
+      "price": 98.8952
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "FILLED",
+      "signal": "bar-1700003480",
+      "delta": 2,
+      "price": 98.8952
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "FILLED",
+      "signal": "bar-1700003480",
+      "delta": 2,
+      "price": 98.8952
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "FILLED",
+      "signal": "bar-1700003480",
+      "delta": 2,
+      "price": 98.8952
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700003480",
+      "delta": 2,
+      "price": 98.8952
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "FILLED",
+      "signal": "bar-1700003480",
+      "delta": 2,
+      "price": 98.8952
+    },
+    {
+      "account": "MT5-SIM-1",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700003480"
+    },
+    {
+      "account": "MT5-SIM-2",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700003480"
+    },
+    {
+      "account": "MT5-SIM-3",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700003480"
+    },
+    {
+      "account": "MT5-SIM-4",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700003480"
+    },
+    {
+      "account": "BINANCE-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700003480"
+    },
+    {
+      "account": "BINGX-SIM",
+      "event": "DEDUPLICATED",
+      "signal": "bar-1700003480"
+    }
+  ],
+  "event_counts": {
+    "FILLED": 29,
+    "UNKNOWN": 1,
+    "REJECTED": 1,
+    "DEDUPLICATED": 31,
+    "RECOVERED": 1,
+    "HELD": 10
+  },
+  "signal_count": 53,
+  "account_count": 7,
+  "duplicate_submissions": 0,
+  "candles": [
+    {
+      "closed_at": 1700000000,
+      "close": 100.0
+    },
+    {
+      "closed_at": 1700000060,
+      "close": 100.4918
+    },
+    {
+      "closed_at": 1700000120,
+      "close": 100.9646
+    },
+    {
+      "closed_at": 1700000180,
+      "close": 101.4001
+    },
+    {
+      "closed_at": 1700000240,
+      "close": 101.7817
+    },
+    {
+      "closed_at": 1700000300,
+      "close": 102.0945
+    },
+    {
+      "closed_at": 1700000360,
+      "close": 102.3269
+    },
+    {
+      "closed_at": 1700000420,
+      "close": 102.4701
+    },
+    {
+      "closed_at": 1700000480,
+      "close": 102.519
+    },
+    {
+      "closed_at": 1700000540,
+      "close": 102.4722
+    },
+    {
+      "closed_at": 1700000600,
+      "close": 102.3323
+    },
+    {
+      "closed_at": 1700000660,
+      "close": 102.1054
+    },
+    {
+      "closed_at": 1700000720,
+      "close": 101.8011
+    },
+    {
+      "closed_at": 1700000780,
+      "close": 101.4322
+    },
+    {
+      "closed_at": 1700000840,
+      "close": 101.014
+    },
+    {
+      "closed_at": 1700000900,
+      "close": 100.5637
+    },
+    {
+      "closed_at": 1700000960,
+      "close": 100.0999
+    },
+    {
+      "closed_at": 1700001020,
+      "close": 99.6417
+    },
+    {
+      "closed_at": 1700001080,
+      "close": 99.208
+    },
+    {
+      "closed_at": 1700001140,
+      "close": 98.8165
+    },
+    {
+      "closed_at": 1700001200,
+      "close": 98.4837
+    },
+    {
+      "closed_at": 1700001260,
+      "close": 98.2232
+    },
+    {
+      "closed_at": 1700001320,
+      "close": 98.0462
+    },
+    {
+      "closed_at": 1700001380,
+      "close": 97.9601
+    },
+    {
+      "closed_at": 1700001440,
+      "close": 97.9692
+    },
+    {
+      "closed_at": 1700001500,
+      "close": 98.0736
+    },
+    {
+      "closed_at": 1700001560,
+      "close": 98.2697
+    },
+    {
+      "closed_at": 1700001620,
+      "close": 98.5504
+    },
+    {
+      "closed_at": 1700001680,
+      "close": 98.905
+    },
+    {
+      "closed_at": 1700001740,
+      "close": 99.32
+    },
+    {
+      "closed_at": 1700001800,
+      "close": 99.7794
+    },
+    {
+      "closed_at": 1700001860,
+      "close": 100.2656
+    },
+    {
+      "closed_at": 1700001920,
+      "close": 100.7597
+    },
+    {
+      "closed_at": 1700001980,
+      "close": 101.2427
+    },
+    {
+      "closed_at": 1700002040,
+      "close": 101.6959
+    },
+    {
+      "closed_at": 1700002100,
+      "close": 102.1018
+    },
+    {
+      "closed_at": 1700002160,
+      "close": 102.4448
+    },
+    {
+      "closed_at": 1700002220,
+      "close": 102.7119
+    },
+    {
+      "closed_at": 1700002280,
+      "close": 102.893
+    },
+    {
+      "closed_at": 1700002340,
+      "close": 102.9815
+    },
+    {
+      "closed_at": 1700002400,
+      "close": 102.9745
+    },
+    {
+      "closed_at": 1700002460,
+      "close": 102.8728
+    },
+    {
+      "closed_at": 1700002520,
+      "close": 102.681
+    },
+    {
+      "closed_at": 1700002580,
+      "close": 102.4076
+    },
+    {
+      "closed_at": 1700002640,
+      "close": 102.0638
+    },
+    {
+      "closed_at": 1700002700,
+      "close": 101.6641
+    },
+    {
+      "closed_at": 1700002760,
+      "close": 101.2249
+    },
+    {
+      "closed_at": 1700002820,
+      "close": 100.7645
+    },
+    {
+      "closed_at": 1700002880,
+      "close": 100.3016
+    },
+    {
+      "closed_at": 1700002940,
+      "close": 99.8555
+    },
+    {
+      "closed_at": 1700003000,
+      "close": 99.4443
+    },
+    {
+      "closed_at": 1700003060,
+      "close": 99.0853
+    },
+    {
+      "closed_at": 1700003120,
+      "close": 98.7932
+    },
+    {
+      "closed_at": 1700003180,
+      "close": 98.5803
+    },
+    {
+      "closed_at": 1700003240,
+      "close": 98.4558
+    },
+    {
+      "closed_at": 1700003300,
+      "close": 98.425
+    },
+    {
+      "closed_at": 1700003360,
+      "close": 98.49
+    },
+    {
+      "closed_at": 1700003420,
+      "close": 98.6486
+    },
+    {
+      "closed_at": 1700003480,
+      "close": 98.8952
+    },
+    {
+      "closed_at": 1700003540,
+      "close": 99.2205
+    }
+  ],
+  "process_restarts": 1,
+  "scope": "Offline one-symbol, single-worker long/flat orchestration demo. MT5/Binance/BingX labels denote simulations, not live adapters. Immediate fills at bar close exclude fees and slippage."
+}

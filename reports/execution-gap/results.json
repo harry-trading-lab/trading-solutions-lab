@@ -1,0 +1,138 @@
+{
+  "input_kind": "synthetic matched trade ledger",
+  "trade_count": 8,
+  "totals": {
+    "theoretical": 620.0,
+    "timing": -160.0,
+    "execution": -48.0,
+    "fees": 32.0,
+    "net": 380.0,
+    "residual": 0.0
+  },
+  "curves": {
+    "theoretical": [
+      0.0,
+      120.0,
+      200.0,
+      160.0,
+      310.0,
+      430.0,
+      510.0,
+      470.0,
+      620.0
+    ],
+    "net": [
+      0.0,
+      90.0,
+      140.0,
+      70.0,
+      190.0,
+      280.0,
+      330.0,
+      260.0,
+      380.0
+    ]
+  },
+  "trades": [
+    {
+      "trade_id": "T01",
+      "side": "LONG",
+      "theoretical": 120.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": 90.0,
+      "residual": 0.0,
+      "findings": [],
+      "entry_latency_ms": 250.0
+    },
+    {
+      "trade_id": "T02",
+      "side": "SHORT",
+      "theoretical": 80.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": 50.0,
+      "residual": 0.0,
+      "findings": [],
+      "entry_latency_ms": 250.0
+    },
+    {
+      "trade_id": "T03",
+      "side": "LONG",
+      "theoretical": -40.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": -70.0,
+      "residual": 0.0,
+      "findings": [
+        "FEATURE_AFTER_SIGNAL"
+      ],
+      "entry_latency_ms": 250.0
+    },
+    {
+      "trade_id": "T04",
+      "side": "SHORT",
+      "theoretical": 150.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": 120.0,
+      "residual": 0.0,
+      "findings": [],
+      "entry_latency_ms": 250.0
+    },
+    {
+      "trade_id": "T05",
+      "side": "LONG",
+      "theoretical": 120.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": 90.0,
+      "residual": 0.0,
+      "findings": [],
+      "entry_latency_ms": 250.0
+    },
+    {
+      "trade_id": "T06",
+      "side": "SHORT",
+      "theoretical": 80.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": 50.0,
+      "residual": 0.0,
+      "findings": [],
+      "entry_latency_ms": 250.0
+    },
+    {
+      "trade_id": "T07",
+      "side": "LONG",
+      "theoretical": -40.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": -70.0,
+      "residual": 0.0,
+      "findings": [],
+      "entry_latency_ms": 250.0
+    },
+    {
+      "trade_id": "T08",
+      "side": "SHORT",
+      "theoretical": 150.0,
+      "timing": -20.0,
+      "execution": -6.0,
+      "fees": 4.0,
+      "net": 120.0,
+      "residual": 0.0,
+      "findings": [],
+      "entry_latency_ms": 250.0
+    }
+  ],
+  "causality_flags": 1,
+  "scope": "Arithmetic attribution for supplied matched trades. No profitability claim, strategy optimization, or inference about an unseen live system."
+}

@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-28T01:17:06.001917+00:00",
+  "transport": "real HTTPS",
+  "simulated_funds_only": true,
+  "venue": "alpaca",
+  "environment": "paper",
+  "account_query": "PASS",
+  "account_status": "ACTIVE",
+  "market_open": false,
+  "historical_feed": "iex",
+  "historical_bar_count": 5,
+  "order_submit": "PASS",
+  "order_query": "PASS",
+  "order_states": [
+    "accepted",
+    "accepted",
+    "canceled"
+  ],
+  "cancel_confirmed": true
+}

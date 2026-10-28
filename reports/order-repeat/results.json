@@ -1,0 +1,132 @@
+{
+  "mode": "OFFLINE_PREVIEW",
+  "additional_repeats": 4,
+  "groups": 5,
+  "order_count": 10,
+  "total_entry_shares": 50,
+  "entry_notional": "5000.00",
+  "stop_distance_exposure": "100.00",
+  "scope": "Concurrent original + copies; all transmit=False. Synthetic equity only. Stop-distance exposure excludes gaps, slippage and fees; it is not a loss cap. No TWS connection, native UI modification or sequential re-entry.",
+  "orders": [
+    {
+      "group": 1,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1000,
+      "parentId": 0,
+      "action": "BUY",
+      "orderType": "LMT",
+      "lmtPrice": "100.00"
+    },
+    {
+      "group": 1,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1001,
+      "parentId": 1000,
+      "action": "SELL",
+      "orderType": "STP",
+      "auxPrice": "98.00"
+    },
+    {
+      "group": 2,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1002,
+      "parentId": 0,
+      "action": "BUY",
+      "orderType": "LMT",
+      "lmtPrice": "100.00"
+    },
+    {
+      "group": 2,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1003,
+      "parentId": 1002,
+      "action": "SELL",
+      "orderType": "STP",
+      "auxPrice": "98.00"
+    },
+    {
+      "group": 3,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1004,
+      "parentId": 0,
+      "action": "BUY",
+      "orderType": "LMT",
+      "lmtPrice": "100.00"
+    },
+    {
+      "group": 3,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1005,
+      "parentId": 1004,
+      "action": "SELL",
+      "orderType": "STP",
+      "auxPrice": "98.00"
+    },
+    {
+      "group": 4,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1006,
+      "parentId": 0,
+      "action": "BUY",
+      "orderType": "LMT",
+      "lmtPrice": "100.00"
+    },
+    {
+      "group": 4,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1007,
+      "parentId": 1006,
+      "action": "SELL",
+      "orderType": "STP",
+      "auxPrice": "98.00"
+    },
+    {
+      "group": 5,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1008,
+      "parentId": 0,
+      "action": "BUY",
+      "orderType": "LMT",
+      "lmtPrice": "100.00"
+    },
+    {
+      "group": 5,
+      "symbol": "DEMO",
+      "secType": "STK",
+      "totalQuantity": 10,
+      "transmit": false,
+      "orderId": 1009,
+      "parentId": 1008,
+      "action": "SELL",
+      "orderType": "STP",
+      "auxPrice": "98.00"
+    }
+  ]
+}

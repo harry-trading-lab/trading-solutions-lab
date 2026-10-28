@@ -1,0 +1,184 @@
+{
+  "clean": {
+    "decision": "PASS",
+    "input_kind": "synthetic",
+    "expected_bars": 276,
+    "observed_symbol_rows": 276,
+    "missing_bars": 0,
+    "finding_count": 0,
+    "finding_counts": {},
+    "sessions": {
+      "2022-03-11": {
+        "bars": 78,
+        "open_utc": "2022-03-11T14:30:00+00:00",
+        "last_bar_utc": "2022-03-11T20:55:00+00:00"
+      },
+      "2022-03-14": {
+        "bars": 78,
+        "open_utc": "2022-03-14T13:30:00+00:00",
+        "last_bar_utc": "2022-03-14T19:55:00+00:00"
+      },
+      "2022-11-23": {
+        "bars": 78,
+        "open_utc": "2022-11-23T14:30:00+00:00",
+        "last_bar_utc": "2022-11-23T20:55:00+00:00"
+      },
+      "2022-11-24": {
+        "bars": 0,
+        "open_utc": null,
+        "last_bar_utc": null
+      },
+      "2022-11-25": {
+        "bars": 42,
+        "open_utc": "2022-11-25T14:30:00+00:00",
+        "last_bar_utc": "2022-11-25T17:55:00+00:00"
+      }
+    },
+    "manifest_sha256": "2bad1bc76c666781399d10d197620908f96bfba8c94fd10e8c4acb4378548dfc",
+    "sources": [
+      {
+        "file": "page-00.json",
+        "sha256": "1956d569a224b3b0ef50e39e7a3ce2655eae51628ef6ca1d1cd4c5674367ce4b",
+        "receipt_sha256": "1956d569a224b3b0ef50e39e7a3ce2655eae51628ef6ca1d1cd4c5674367ce4b"
+      },
+      {
+        "file": "page-01.json",
+        "sha256": "bc891fac019ec4239c5374486f8a7b6a32cd9b5adf8b852902580048bf7bbdde",
+        "receipt_sha256": "bc891fac019ec4239c5374486f8a7b6a32cd9b5adf8b852902580048bf7bbdde"
+      },
+      {
+        "file": "page-02.json",
+        "sha256": "5deaa763537a74018dcbd85a0209e74b7aeabc692b955bf199a54fa68b42fddf",
+        "receipt_sha256": "5deaa763537a74018dcbd85a0209e74b7aeabc692b955bf199a54fa68b42fddf"
+      },
+      {
+        "file": "page-03.json",
+        "sha256": "72a78ff593d8323556bd6306ad19b57c990e38fe4ff005100dbf10fa708204b1",
+        "receipt_sha256": "72a78ff593d8323556bd6306ad19b57c990e38fe4ff005100dbf10fa708204b1"
+      },
+      {
+        "file": "page-04.json",
+        "sha256": "ea9bb8e05d6453dfff0a03429c4dc9b41c193092e063a2bf900dc4b60ac05cb3",
+        "receipt_sha256": "ea9bb8e05d6453dfff0a03429c4dc9b41c193092e063a2bf900dc4b60ac05cb3"
+      }
+    ],
+    "findings": [],
+    "scope": "Fixture byte integrity, cursor continuity, XNYS schedule and OHLCV checks. Not a client audit or source-authenticity certification."
+  },
+  "broken": {
+    "decision": "HOLD",
+    "input_kind": "synthetic",
+    "expected_bars": 276,
+    "observed_symbol_rows": 277,
+    "missing_bars": 1,
+    "finding_count": 8,
+    "finding_counts": {
+      "CONFLICTING_DUPLICATE": 1,
+      "DUPLICATE_BAR": 1,
+      "HASH_MISMATCH": 1,
+      "INVALID_OHLCV": 1,
+      "MISSING_BAR": 1,
+      "OUT_OF_SESSION": 1,
+      "PAGINATION_GAP": 1,
+      "UNEXPECTED_SYMBOL": 1
+    },
+    "sessions": {
+      "2022-03-11": {
+        "bars": 78,
+        "open_utc": "2022-03-11T14:30:00+00:00",
+        "last_bar_utc": "2022-03-11T20:55:00+00:00"
+      },
+      "2022-03-14": {
+        "bars": 78,
+        "open_utc": "2022-03-14T13:30:00+00:00",
+        "last_bar_utc": "2022-03-14T19:55:00+00:00"
+      },
+      "2022-11-23": {
+        "bars": 78,
+        "open_utc": "2022-11-23T14:30:00+00:00",
+        "last_bar_utc": "2022-11-23T20:55:00+00:00"
+      },
+      "2022-11-24": {
+        "bars": 0,
+        "open_utc": null,
+        "last_bar_utc": null
+      },
+      "2022-11-25": {
+        "bars": 42,
+        "open_utc": "2022-11-25T14:30:00+00:00",
+        "last_bar_utc": "2022-11-25T17:55:00+00:00"
+      }
+    },
+    "manifest_sha256": "9ce7229f4749fea4140c763a5bfbff47bef5695b4db271e5ea5f251dbe471b2a",
+    "sources": [
+      {
+        "file": "page-00.json",
+        "sha256": "697f80d171739da235413dc25aed0d165dfd786e40a25f38ef2633ce70005f61",
+        "receipt_sha256": "d4d163b619d7f0b6538416e3891d0d7d3791502d12c346618c9641cd1f63b312"
+      },
+      {
+        "file": "page-01.json",
+        "sha256": "3dbb7030b958b200f4ed0e25fac7d22fb9f6b9c689da8e846617329dc8e245ed",
+        "receipt_sha256": "3dbb7030b958b200f4ed0e25fac7d22fb9f6b9c689da8e846617329dc8e245ed"
+      },
+      {
+        "file": "page-02.json",
+        "sha256": "561ff47df6ed5b26e133a6dd6597c5e7f73939ee03c2a167683fc5972e7bda2a",
+        "receipt_sha256": "561ff47df6ed5b26e133a6dd6597c5e7f73939ee03c2a167683fc5972e7bda2a"
+      },
+      {
+        "file": "page-03.json",
+        "sha256": "8b060203e9ab28b1fe4c7d1751ec0e20b484b15c330b95e1354c88d3e7008fae",
+        "receipt_sha256": "8b060203e9ab28b1fe4c7d1751ec0e20b484b15c330b95e1354c88d3e7008fae"
+      },
+      {
+        "file": "page-04.json",
+        "sha256": "bfa2184373ed6c5e28a4950507695d9090ee94f40ff72bd95d3e886b8b4df244",
+        "receipt_sha256": "bfa2184373ed6c5e28a4950507695d9090ee94f40ff72bd95d3e886b8b4df244"
+      }
+    ],
+    "findings": [
+      {
+        "code": "HASH_MISMATCH",
+        "source": "page-00.json",
+        "detail": "Raw bytes differ from the stored SHA-256 receipt"
+      },
+      {
+        "code": "INVALID_OHLCV",
+        "source": "page-00.json#/bars/20",
+        "detail": "Non-finite, negative, or inconsistent OHLCV"
+      },
+      {
+        "code": "PAGINATION_GAP",
+        "source": "page-02.json",
+        "detail": "Request cursor does not continue preceding response"
+      },
+      {
+        "code": "OUT_OF_SESSION",
+        "source": "page-04.json#/bars/36",
+        "detail": "2022-11-24T15:00:00+00:00"
+      },
+      {
+        "code": "UNEXPECTED_SYMBOL",
+        "source": "page-04.json#/bars/37",
+        "detail": "OTHER"
+      },
+      {
+        "code": "DUPLICATE_BAR",
+        "source": "page-04.json#/bars/35",
+        "detail": "2022-03-11T14:50:00+00:00"
+      },
+      {
+        "code": "CONFLICTING_DUPLICATE",
+        "source": "page-04.json#/bars/35",
+        "detail": "Duplicate key has different OHLCV values"
+      },
+      {
+        "code": "MISSING_BAR",
+        "source": "expected XNYS schedule",
+        "detail": "2022-03-11T15:30:00+00:00"
+      }
+    ],
+    "scope": "Fixture byte integrity, cursor continuity, XNYS schedule and OHLCV checks. Not a client audit or source-authenticity certification."
+  }
+}

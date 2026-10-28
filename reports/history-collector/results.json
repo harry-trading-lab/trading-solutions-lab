@@ -1,0 +1,662 @@
+{
+  "mode": "SYNTHETIC_PROVIDER_ONLY",
+  "symbol_count": 100,
+  "bars_per_symbol": 390,
+  "unique_bars": 39000,
+  "pages_before_restart": 23,
+  "pages_after_restart": 377,
+  "bars_before_restart": 2250,
+  "retry_errors": {
+    "429": 6,
+    "503": 5
+  },
+  "simulated_wait_seconds": 17,
+  "overlap_rows_deduplicated": 300,
+  "completed_rerun_requests": 0,
+  "matches_uninterrupted_run": true,
+  "manifest": [
+    {
+      "symbol": "SIM000",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "e7f5f63e01b83c41254466a0756397540b03f5d0a2d938b53bfb544ae8cb0348"
+    },
+    {
+      "symbol": "SIM001",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "72e944a28c3aeb8a64c1123d6ada3f13433bc3f46870134fffa704dae31d2611"
+    },
+    {
+      "symbol": "SIM002",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "9e79e052cc52d53f118fcef59597c0d6b4eea40628fa68483beeb1e2ed2ea175"
+    },
+    {
+      "symbol": "SIM003",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "530c5fd3622ac4bd1a9f67765961179783243dfd20e11fd0236f0252a2cba8ca"
+    },
+    {
+      "symbol": "SIM004",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "6829d34f22b8fe9df7afec30977661422a81c722a36c059e8d3455e1ea978713"
+    },
+    {
+      "symbol": "SIM005",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "0335c5703e5652570a7435d0b3c45b979e01a835d1c19a3ffb08fcd423380bcb"
+    },
+    {
+      "symbol": "SIM006",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "3d371c165b9e9654bd276da7b43a59a59c760639172b9c0f6fa635613522021e"
+    },
+    {
+      "symbol": "SIM007",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "ab546085982982565bd49bfedab0671343728fa2e56028c91e192f3caf79ff8b"
+    },
+    {
+      "symbol": "SIM008",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "818f72bb76ac8145a1273d6fb0f874d5e99786ab18b2a5e30d596b8dee17eb04"
+    },
+    {
+      "symbol": "SIM009",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "2ad53a414db9e41d4c153c5660541eb6e13bcb9b93aa3272052ca2c363e224ab"
+    },
+    {
+      "symbol": "SIM010",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "5a9b4cfb261d4546e0fbc8613c78f147c38073f172cdd9a638983056785ea9a3"
+    },
+    {
+      "symbol": "SIM011",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "67d0400fb797fcb231cdadff63ddd766120b662cdfdfd4b27fb9cde969529573"
+    },
+    {
+      "symbol": "SIM012",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "bd65107f833620858859e8ba38c38086de2313731e909a7723b79d4bf513fd55"
+    },
+    {
+      "symbol": "SIM013",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "c169e1f8c8fc98565a7c7cb4af5465eb4ba409218b7d29e84ecfef11b6f75980"
+    },
+    {
+      "symbol": "SIM014",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "b75feac0fa635cb186f4468cc1aa224c768b36b126c3124aa033f66b606da31a"
+    },
+    {
+      "symbol": "SIM015",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "1ffd8bdeed6324bc9e816d8e238f71641e790736990a353e4c98cce202d910db"
+    },
+    {
+      "symbol": "SIM016",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "97188c10b62f91f4a5dd0af8ae7db6496df155201bb4d5c52f996076c9d2fd42"
+    },
+    {
+      "symbol": "SIM017",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "0fe9f37751bd478fbfe49b950033f9cd2b488986044f8d43f9ba3093137ceb0d"
+    },
+    {
+      "symbol": "SIM018",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "e7e77cfa8c6050374c48b72cafdadbc606a56e00bf21353b9a57da86bd05cbff"
+    },
+    {
+      "symbol": "SIM019",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "773d82892683f2e77aa17a1109f7e9dcd9831e99f5ada94c05c5832245e8e779"
+    },
+    {
+      "symbol": "SIM020",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8a5c6e817370c0b90396f86e3c7e9bd788b900340477e74fffa759902e790464"
+    },
+    {
+      "symbol": "SIM021",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "de7b6df36c654e4592d0ec1b18de183068af52cfe8c46b7f298f1aecfcad054c"
+    },
+    {
+      "symbol": "SIM022",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "d8fe72d90e8997f67161a555e452ca40b9020c0a22e8f809a2c63315a45f5070"
+    },
+    {
+      "symbol": "SIM023",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "c55f62bd8e7a4c0216fbb71ffa3017473f7c5362434367fae3673b2db5d947a8"
+    },
+    {
+      "symbol": "SIM024",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "97f21e27318304a02fcdda385e6a5ef70818a8db98fbad6585901d7e4552b8df"
+    },
+    {
+      "symbol": "SIM025",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "9256f3c8b71fc7ec4e3f0e8338b40976be9e52a8d48c026cdd4cb46504b3f112"
+    },
+    {
+      "symbol": "SIM026",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "6cdeef31d477295d7237bbfa1e63e2ff7e487cf47c29a96116e9cb6ee0819959"
+    },
+    {
+      "symbol": "SIM027",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "90cd979987a0d9838e8dc335ea6da94a8356b1a03cc794bba9378aacc95b410a"
+    },
+    {
+      "symbol": "SIM028",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "afcf197ae0fc4e317bd5ed29d17771abf647c55e4a4e90d6c032a489747d5505"
+    },
+    {
+      "symbol": "SIM029",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "a3e616548d6fc436a35b353112842654624a2513a4b30d194e34522d2245df9b"
+    },
+    {
+      "symbol": "SIM030",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "73b4015e3bd7f5831edf6e1c2a9fb4462663e6f8eb5d1d8df156ca027ec97743"
+    },
+    {
+      "symbol": "SIM031",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "d15c056a151bb899c76e07b624ad717d511843df6619ff45fdcbf5c40f21b380"
+    },
+    {
+      "symbol": "SIM032",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "ce4eb8af4641e39369ea94d071e493e52fa81d38221d086730a0b261e35011cc"
+    },
+    {
+      "symbol": "SIM033",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "4d44ba8f896b2171e89c752b02bd12d7d99ab7d731583bf679af7870bf57ec8f"
+    },
+    {
+      "symbol": "SIM034",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "ffdaa8da0995b01a1fb05e55eb6fe26170d71da6071b5c69baa02c6942dcf87a"
+    },
+    {
+      "symbol": "SIM035",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "5df14c893912fb0b86905f520177185f0817968e29d8d1967f6c32a25eb9c4e1"
+    },
+    {
+      "symbol": "SIM036",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "bc1cf77e6b7c1b37d8e3cbf277375afa9ae266b4099e45e71719449b9625d3e4"
+    },
+    {
+      "symbol": "SIM037",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "ad3a639ccbcd4e28056b24d1103ee89263bb82c9748873a8880edb71c3fbd9d4"
+    },
+    {
+      "symbol": "SIM038",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "570fd00da394ccc2655cd2da5a1708b90d56c1244b216ac69bb8b740145e7ed9"
+    },
+    {
+      "symbol": "SIM039",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "25c546aed9d5f464c23c3f44fddc1e1c67bf2dbb3d9c6eba749276ce57e18fbd"
+    },
+    {
+      "symbol": "SIM040",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "c4cc393730ed2125cbb14c46f9030754f721b4c6fdca83cabec25773ebf8db0c"
+    },
+    {
+      "symbol": "SIM041",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "df684c681c2f3bed85f44012c3b8da8035c5ac12ccd571cd2c61cc32e13576ba"
+    },
+    {
+      "symbol": "SIM042",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "48d34d7bd17007a05d75cbd2e5f5dab0d35a9f4450973657866669fa4ff656f9"
+    },
+    {
+      "symbol": "SIM043",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "1ce905e00763b977451d37802624845c3bf0f5329dcd3dcc7bf5e7febb0c38a2"
+    },
+    {
+      "symbol": "SIM044",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8d40606fa9863f93c14f96810bb4158b7b67457fe662aad6063c7a50af2e803b"
+    },
+    {
+      "symbol": "SIM045",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "9fd4f1d3a3ce53aedd1a874026f4299a66fdeb84d2b8ac0272ca94c4b12d13ee"
+    },
+    {
+      "symbol": "SIM046",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "09d1463702fff794dc9faf01cc6a7107ff5f4f9a65740d8d0379e3cc28b10a9f"
+    },
+    {
+      "symbol": "SIM047",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "931a0d4b6929964ab450f37bc35c63892e8e930336328b5fae9a35bf11c4949b"
+    },
+    {
+      "symbol": "SIM048",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "305b4a43cc3894c1fcc2ca5e0ebaa662392c14c0e872808f0d3528243c804715"
+    },
+    {
+      "symbol": "SIM049",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "e68edb5450a3f5bd515d920585fe639af2e2178e03caca17ca9fd54d9baa70e1"
+    },
+    {
+      "symbol": "SIM050",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8b2ec7b2c37c966604cb93b2b9c7ab56b1d990ba9524bbef27787d689e18dd12"
+    },
+    {
+      "symbol": "SIM051",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8f6fa7ca88b870485e9347b5a3f9e6289ba6eac3bfa0a7f0358e8dbf259911d4"
+    },
+    {
+      "symbol": "SIM052",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "ac784533102f7e39f6269fc7b1ac1f30831e263a5a2d69ef15487f975d84328f"
+    },
+    {
+      "symbol": "SIM053",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "779dc04addfdfcee3850d83a172868ba8495a9344c5171eaf6f63cc20dc3a01e"
+    },
+    {
+      "symbol": "SIM054",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "250e0ed8424e649992522c7cbe387a788383fede21d345c394768a1988368941"
+    },
+    {
+      "symbol": "SIM055",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "b3bbb8871c3b765b2bad4ba87ed7c6c89a3f4638881b8a4d2a9b12efd6b28d54"
+    },
+    {
+      "symbol": "SIM056",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "cc10081a78a3a8f776a43baf80d7fe1f2cc28da83c73cbd25d95153766f40b54"
+    },
+    {
+      "symbol": "SIM057",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "f510a48953d1d3869fb3197a4c05ce31687ad745c706df67b4b6e2b67409687a"
+    },
+    {
+      "symbol": "SIM058",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "7d122ea2059860c0f89cb48e67abca391d683adc06be38a4c4c06331f0825760"
+    },
+    {
+      "symbol": "SIM059",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8c255c4d69c4793b3979f482e8e94125cab07b87cd4f7252f1fb13e359efb14a"
+    },
+    {
+      "symbol": "SIM060",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "06bea8f53a0b3273d0cb468e412379ae386380747bdb0142507b856039a536db"
+    },
+    {
+      "symbol": "SIM061",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "0fcb31fc3f4b2d0b7dc1ddcf1fc47e392c2abda46524ac0fde1609f3fd6a10f8"
+    },
+    {
+      "symbol": "SIM062",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8caeaea3bacfe7b64dd38233ad56bca359b15e4f15ee5aea747b961a531dd65f"
+    },
+    {
+      "symbol": "SIM063",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "0f583149ea62cea3c4fa3e12a1342ef49c5f6332687e498290b8bf69f38e2034"
+    },
+    {
+      "symbol": "SIM064",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "d0bbbe185682b638e6735ca586f51bb1c068c158cb9246694bc0361046443b42"
+    },
+    {
+      "symbol": "SIM065",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8de02c00e59508dcb1dfd93c8ade8b4a536542a8be248c4d39e02572dbad4d30"
+    },
+    {
+      "symbol": "SIM066",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "cce4a2f4895812c2e026603c3341ca273e85440224956340404027230528fe91"
+    },
+    {
+      "symbol": "SIM067",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "d7150c25508fc6ae6289e723a175138cc5b1298abeea98143f40a36b7e01df4e"
+    },
+    {
+      "symbol": "SIM068",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "44f47970327378522063cd4773b25c008e04e992270c76c622924fd37e9aa18b"
+    },
+    {
+      "symbol": "SIM069",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "11b4f338822ce4e9f3a87a4fc3cc5220d1af6d2b7963f351032c2075190223e4"
+    },
+    {
+      "symbol": "SIM070",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "dbe6504a9bb2ba1e72e06e6a1c018245ceb5fe3c32bac3e49e4c5c92c6739d47"
+    },
+    {
+      "symbol": "SIM071",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "1897aab7c92be42bec6e755110227d93ae85232e59a8b222f5ed3fec65b06890"
+    },
+    {
+      "symbol": "SIM072",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "cebc2e9d16c551a3631626420bf2fb726e33e09c117cfc72beddcc25a1ef7407"
+    },
+    {
+      "symbol": "SIM073",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "3354f4b57d7c1b736e3346328b742fb73ad6b8e5075fa13c33373dc050bd538f"
+    },
+    {
+      "symbol": "SIM074",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "7724a3bf46157ea199df298d1b21562cfebf19b6ea3c432a632ed900c757aa25"
+    },
+    {
+      "symbol": "SIM075",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "d982946ac523f74906b50a5cdfbb4e53e7cd5aa5571a909555d0024ef2d77822"
+    },
+    {
+      "symbol": "SIM076",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "e3f43b5c1c931bca004298d82a392d43e47f1506e7360f0411143ed88aa1634d"
+    },
+    {
+      "symbol": "SIM077",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "187f13332d9056a3c2e88a2b55fa35909e07ad03c9e3d25d671de2f585f30889"
+    },
+    {
+      "symbol": "SIM078",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "8beef4a215bdbcfa40532a8f971c55002a2928c7494a8725fb972a04f1e5dfb5"
+    },
+    {
+      "symbol": "SIM079",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "9fc7c10c14aa281fd0d46a8d18f312d1e83fea9a7bcc215215e57c1db5409335"
+    },
+    {
+      "symbol": "SIM080",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "3d1cb9e98be09fe629debd19cb19a3904e38e0c5bdecc818191214a38b693720"
+    },
+    {
+      "symbol": "SIM081",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "3c8546f0938150b632d8ba3d117c8cff0b8025a73c2ee091f0eeb8537a916c13"
+    },
+    {
+      "symbol": "SIM082",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "ff1d878871acc024f6600b3c884f3c37105f75ad9957d05be42989c6f859b50e"
+    },
+    {
+      "symbol": "SIM083",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "a6ccfc07fc66a4de7b46a20a4e4bed28c2ad00a083c5832b00ad7e2d9d988e6a"
+    },
+    {
+      "symbol": "SIM084",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "ad1daac5f58a7bd9873925b4a86ee09850a7358cbbe0e142955cf24adcf26339"
+    },
+    {
+      "symbol": "SIM085",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "f8bf9222aac22afdfba642416027d80f9c41a7b9488634e1f40470af8b1c5982"
+    },
+    {
+      "symbol": "SIM086",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "35fdd6b4f7403c3586695cff120d9452c9e21868f0bf1ed8ddc476aeb793f41c"
+    },
+    {
+      "symbol": "SIM087",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "6c1c00955ad0242cdaf33889cd9dc4b36002e5afb97f56f6c5ff89cb8a11cdf3"
+    },
+    {
+      "symbol": "SIM088",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "c1860fd9cacdeb808d900e4f23805f4efa8cdd7ec7ca820311213b8dcabd633c"
+    },
+    {
+      "symbol": "SIM089",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "10bcd167fc483c499ebb6d250e3518e98163c6f3feec7a4fa81f54049ccf7056"
+    },
+    {
+      "symbol": "SIM090",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "1d3f945fde3a465fbcaf179330a88a728438eaaa3752600b56ead5f045a63d1c"
+    },
+    {
+      "symbol": "SIM091",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "871de4c36b0aa99c4452a48118f0dd677c7a082a33e9f95afa6af1fe2603926d"
+    },
+    {
+      "symbol": "SIM092",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "393470cadb90a944dec06ec052aaca1a53fee7e28093a88d25dec90da6c60510"
+    },
+    {
+      "symbol": "SIM093",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "515f4d5e728d00a85db569aeeb6b5e4baabb052c1578b26571cafe5ff4eaef64"
+    },
+    {
+      "symbol": "SIM094",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "818cdbfc63aecb87f28466f2d036c97a5c36d2889e9f631251120c9f4fea0cc1"
+    },
+    {
+      "symbol": "SIM095",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "a458b904ae83bcaaa531e6ff8f7ab830b411d3ffce2e2fe1cb59835fff5b3928"
+    },
+    {
+      "symbol": "SIM096",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "40690de5f354f10a9fce4f6b5d0fe9b1f8e86898f87e91881d6c1765737cbfda"
+    },
+    {
+      "symbol": "SIM097",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "da0fa3628cf8f766fb68af3d7e8bd6b913fb2c1a6bfd2cb9c6aa52555ed49ff9"
+    },
+    {
+      "symbol": "SIM098",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "48c83bff1def82d4339a1ddb4b4ba9f5ba5344b1ed52b3788b779322e9bfa7b5"
+    },
+    {
+      "symbol": "SIM099",
+      "bars": 390,
+      "checkpoint": 390,
+      "sha256": "5d1219fc15977634731cdee58dd3d8d56d3ed3a7eb92f4730be9771c751389b7"
+    }
+  ],
+  "sample": [
+    {
+      "close_cents": 10001,
+      "high_cents": 10003,
+      "low_cents": 9998,
+      "minute": 0,
+      "open_cents": 10000,
+      "volume": 1000
+    },
+    {
+      "close_cents": 10002,
+      "high_cents": 10004,
+      "low_cents": 9999,
+      "minute": 1,
+      "open_cents": 10001,
+      "volume": 1001
+    },
+    {
+      "close_cents": 10003,
+      "high_cents": 10005,
+      "low_cents": 10000,
+      "minute": 2,
+      "open_cents": 10002,
+      "volume": 1002
+    },
+    {
+      "close_cents": 10004,
+      "high_cents": 10006,
+      "low_cents": 10001,
+      "minute": 3,
+      "open_cents": 10003,
+      "volume": 1003
+    },
+    {
+      "close_cents": 10005,
+      "high_cents": 10007,
+      "low_cents": 10002,
+      "minute": 4,
+      "open_cents": 10004,
+      "volume": 1004
+    }
+  ],
+  "scope": "One synthetic 390-minute session, 100 synthetic symbols, one worker. A SQLite connection is closed/reopened after an injected interruption. Retry delays use a recording clock, not wall-clock sleeping. HTTP-like 429/503 events are generic test fixtures, not an IBKR protocol emulation. No broker SDK, live market data, real pacing validation or vendor authentication."
+}

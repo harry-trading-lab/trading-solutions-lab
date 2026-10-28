@@ -1,0 +1,35 @@
+{
+  "fixture": "synthetic OHLCV; no market-data vendor",
+  "symbol": "DEMO",
+  "bar_interval_minutes": 5,
+  "bar_timestamp": "interval start",
+  "dates": [
+    "2022-03-11",
+    "2022-03-14",
+    "2022-11-23",
+    "2022-11-24",
+    "2022-11-25"
+  ],
+  "pages": [
+    {
+      "file": "page-00.json",
+      "sha256": "1956d569a224b3b0ef50e39e7a3ce2655eae51628ef6ca1d1cd4c5674367ce4b"
+    },
+    {
+      "file": "page-01.json",
+      "sha256": "bc891fac019ec4239c5374486f8a7b6a32cd9b5adf8b852902580048bf7bbdde"
+    },
+    {
+      "file": "page-02.json",
+      "sha256": "5deaa763537a74018dcbd85a0209e74b7aeabc692b955bf199a54fa68b42fddf"
+    },
+    {
+      "file": "page-03.json",
+      "sha256": "72a78ff593d8323556bd6306ad19b57c990e38fe4ff005100dbf10fa708204b1"
+    },
+    {
+      "file": "page-04.json",
+      "sha256": "ea9bb8e05d6453dfff0a03429c4dc9b41c193092e063a2bf900dc4b60ac05cb3"
+    }
+  ]
+}
