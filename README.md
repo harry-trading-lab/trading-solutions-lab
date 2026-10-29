@@ -28,6 +28,21 @@ executed tastytrade, OANDA and Alpaca sandbox account-query and submit/cancel cy
 plus OANDA EUR/USD pricing/candles and Alpaca IEX historical daily bars.
 The sandbox uses simulated funds. Credentials and account identifiers are not published.
 
+## New: three demand-led reusable solutions
+
+These original solutions address public requests for indicator performance,
+restricted calculation APIs and AI analysis review. Each includes runnable code,
+adversarial tests, generated reports and explicit integration limits.
+
+| Inspect the solution | What the evidence demonstrates |
+|---|---|
+| [Anchored VWAP performance](reports/anchored-vwap/) | Range queries match a separate reference; historical corrections invalidate affected aggregates |
+| [Calculation service boundary](reports/calculation-boundary/) | Two HTTP processes; allowed/denied routes and upstream failure handling |
+| [AI analysis review](reports/analysis-review/) | Clean control plus seeded leakage, split contamination and statistical-claim issues |
+
+[Design, demand references and run instructions](solutions/README.md).
+These are public reference implementations, not completed client projects.
+
 ## 1. Market Data Audit
 
 [![Data audit preview](reports/data-audit/preview.png)](reports/data-audit/)

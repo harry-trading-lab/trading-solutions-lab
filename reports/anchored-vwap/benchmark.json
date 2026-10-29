@@ -1,0 +1,11 @@
+{
+  "python": "3.14.8",
+  "platform": "Darwin arm64",
+  "build_seconds": 0.01296570897102356,
+  "query_seconds_median": {
+    "baseline": 0.11764016607776284,
+    "indexed": 0.0007379171438515186
+  },
+  "query_speedup": 159.4219175661733,
+  "method": "10,000 bars; 150 identical ranges; median of 3; build reported separately; synthetic input, seed 291026"
+}

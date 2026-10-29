@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "sample_id": "a",
+      "split": "train",
+      "decision_at": "2026-01-01T10:00:00Z",
+      "feature_available_at": "2026-01-01T10:00:00Z",
+      "label_end_at": "2026-01-03T10:00:00Z"
+    },
+    {
+      "sample_id": "a",
+      "split": "test",
+      "decision_at": "2026-01-03T10:00:00Z",
+      "feature_available_at": "2026-01-04T10:00:00Z",
+      "label_end_at": "2026-01-04T10:00:00Z"
+    }
+  ],
+  "preprocessing_fit_ids": [
+    "a"
+  ],
+  "pvalues": {
+    "test_a": 0.01,
+    "test_b": 0.03,
+    "test_c": 0.04
+  },
+  "claim": {
+    "kind": "causal",
+    "design": "observational"
+  }
+}

@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Audit the analysis before trusting it</title><style>
+    body{margin:0;background:#f4f7fa;color:#152b3a;font:17px/1.6 system-ui}main{max-width:1040px;margin:auto;padding:48px 24px}h1{font-size:clamp(28px,5vw,48px);line-height:1.15}header p{color:#526878}.eyebrow{color:#00857e;font-weight:700;letter-spacing:.08em}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin:32px 0}.card{padding:24px;background:white;border:1px solid #d9e2e7;border-radius:14px}.card strong{display:block;color:#00857e;font-size:32px}.card span{display:block;font-size:15px}section{background:white;padding:24px;border-radius:14px;margin:20px 0}pre{overflow:auto;font-size:13px}a{color:#00756e}footer{font-size:14px;color:#526878}
+    </style><main><header><p class="eyebrow">TRADING SOLUTIONS LAB · EXECUTED EVIDENCE</p><h1>Audit the analysis before trusting it</h1><p>A review harness for declared timestamps, data splits and statistical claims.</p></header><div class="cards"><div class="card"><strong>6</strong><span>Seeded issue classes</span></div><div class="card"><strong>NO FLAGS</strong><span>Clean control</span></div><div class="card"><strong>REVIEW</strong><span>Contaminated analysis</span></div></div><section><h2>What was verified</h2><ul><li>Detect future features and training labels crossing the test cutoff.</li><li>Flag reused sample IDs and preprocessing fitted outside training.</li><li>Adjust the declared p-value family with Holm step-down.</li><li>Escalate observational causal claims for identification review.</li></ul></section><section><h2>Read the evidence</h2><details><summary>Executed results JSON</summary><pre>{
+  &quot;clean&quot;: {
+    &quot;status&quot;: &quot;NO_FLAGS_IN_DECLARED_CHECKS&quot;,
+    &quot;findings&quot;: [],
+    &quot;holm&quot;: {
+      &quot;baseline&quot;: {
+        &quot;raw_p&quot;: 0.3,
+        &quot;adjusted_p&quot;: 0.3,
+        &quot;reject_at_alpha&quot;: false
+      }
+    },
+    &quot;rows_checked&quot;: 2,
+    &quot;limitation&quot;: &quot;Manifest evidence only. Does not execute notebooks, detect undisclosed trials, or certify causal identification/model validity.&quot;
+  },
+  &quot;broken&quot;: {
+    &quot;status&quot;: &quot;REVIEW_REQUIRED&quot;,
+    &quot;findings&quot;: [
+      {
+        &quot;code&quot;: &quot;FEATURE_UNAVAILABLE_AT_DECISION&quot;,
+        &quot;row&quot;: 1,
+        &quot;sample_id&quot;: &quot;a&quot;
+      },
+      {
+        &quot;code&quot;: &quot;TRAIN_LABEL_OVERLAPS_TEST&quot;,
+        &quot;row&quot;: 0,
+        &quot;sample_id&quot;: &quot;a&quot;
+      },
+      {
+        &quot;code&quot;: &quot;SAMPLE_ID_REUSED&quot;,
+        &quot;sample_id&quot;: &quot;a&quot;,
+        &quot;splits&quot;: [
+          &quot;train&quot;,
+          &quot;test&quot;
+        ]
+      },
+      {
+        &quot;code&quot;: &quot;PREPROCESSING_FIT_OUTSIDE_TRAIN&quot;,
+        &quot;sample_id&quot;: &quot;a&quot;
+      },
+      {
+        &quot;code&quot;: &quot;CAUSAL_CLAIM_REQUIRES_IDENTIFICATION_REVIEW&quot;
+      },
+      {
+        &quot;code&quot;: &quot;SIGNIFICANCE_NOT_RETAINED_AFTER_HOLM&quot;,
+        &quot;test&quot;: &quot;test_b&quot;
+      },
+      {
+        &quot;code&quot;: &quot;SIGNIFICANCE_NOT_RETAINED_AFTER_HOLM&quot;,
+        &quot;test&quot;: &quot;test_c&quot;
+      }
+    ],
+    &quot;holm&quot;: {
+      &quot;test_a&quot;: {
+        &quot;raw_p&quot;: 0.01,
+        &quot;adjusted_p&quot;: 0.03,
+        &quot;reject_at_alpha&quot;: true
+      },
+      &quot;test_b&quot;: {
+        &quot;raw_p&quot;: 0.03,
+        &quot;adjusted_p&quot;: 0.06,
+        &quot;reject_at_alpha&quot;: false
+      },
+      &quot;test_c&quot;: {
+        &quot;raw_p&quot;: 0.04,
+        &quot;adjusted_p&quot;: 0.06,
+        &quot;reject_at_alpha&quot;: false
+      }
+    },
+    &quot;rows_checked&quot;: 2,
+    &quot;limitation&quot;: &quot;Manifest evidence only. Does not execute notebooks, detect undisclosed trials, or certify causal identification/model validity.&quot;
+  },
+  &quot;distinct_issue_classes&quot;: [
+    &quot;CAUSAL_CLAIM_REQUIRES_IDENTIFICATION_REVIEW&quot;,
+    &quot;FEATURE_UNAVAILABLE_AT_DECISION&quot;,
+    &quot;PREPROCESSING_FIT_OUTSIDE_TRAIN&quot;,
+    &quot;SAMPLE_ID_REUSED&quot;,
+    &quot;SIGNIFICANCE_NOT_RETAINED_AFTER_HOLM&quot;,
+    &quot;TRAIN_LABEL_OVERLAPS_TEST&quot;
+  ]
+}</pre></details><p><a href="results.json">Download results</a> · <a href="https://github.com/harry-trading-lab/trading-solutions-lab/tree/main/solutions">Source and reproduction instructions</a></p></section><footer>Synthetic manifests. Requires truthful provenance and the full test family. Does not parse notebooks, prove causality, or certify an AI analysis. AI-assisted original work.</footer></main></html>

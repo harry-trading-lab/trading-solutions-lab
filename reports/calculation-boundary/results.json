@@ -1,0 +1,69 @@
+{
+  "all_pass": true,
+  "audit_records": 8,
+  "cases": [
+    {
+      "case": "Developer fixture",
+      "expected_status": 200,
+      "observed_status": 200,
+      "pass": true
+    },
+    {
+      "case": "Developer live route denied",
+      "expected_status": 403,
+      "observed_status": 403,
+      "pass": true
+    },
+    {
+      "case": "Application live route",
+      "expected_status": 200,
+      "observed_status": 200,
+      "pass": true
+    },
+    {
+      "case": "Application direct engine denied",
+      "expected_status": 401,
+      "observed_status": 401,
+      "pass": true
+    },
+    {
+      "case": "Developer direct engine denied",
+      "expected_status": 401,
+      "observed_status": 401,
+      "pass": true
+    },
+    {
+      "case": "Anonymous denied",
+      "expected_status": 401,
+      "observed_status": 401,
+      "pass": true
+    },
+    {
+      "case": "Undeclared source route denied",
+      "expected_status": 404,
+      "observed_status": 404,
+      "pass": true
+    },
+    {
+      "case": "Invalid schema rejected",
+      "expected_status": 400,
+      "observed_status": 400,
+      "pass": true
+    },
+    {
+      "case": "Engine failure closed",
+      "expected_status": 502,
+      "observed_status": 502,
+      "pass": true
+    },
+    {
+      "case": "Mock survives engine failure",
+      "expected_status": 200,
+      "observed_status": 200,
+      "pass": true
+    }
+  ],
+  "process_boundary": "Two independent Python subprocesses over localhost HTTP",
+  "scope": "Public placeholder model. Demonstrates application route permissions, not OS/IAM isolation or production readiness.",
+  "tokens_in_audit": false
+}

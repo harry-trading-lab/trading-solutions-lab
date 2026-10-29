@@ -27,3 +27,9 @@ jobs:
           diff -u reports/order-repeat/results.json /tmp/verified-demos/order-repeat/results.json
           diff -u reports/strategy-trial/results.json /tmp/verified-demos/strategy-trial/results.json
           diff -u reports/history-collector/results.json /tmp/verified-demos/history-collector/results.json
+      - name: Execute demand-led solution checks
+        run: python run_demand_solutions.py --no-images --output /tmp/demand-solutions
+      - name: Verify deterministic analysis and API evidence
+        run: |
+          diff -u reports/analysis-review/results.json /tmp/demand-solutions/analysis-review/results.json
+          diff -u reports/calculation-boundary/results.json /tmp/demand-solutions/calculation-boundary/results.json

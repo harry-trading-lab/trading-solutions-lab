@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Faster anchored VWAP queries</title><style>
+    body{margin:0;background:#f4f7fa;color:#152b3a;font:17px/1.6 system-ui}main{max-width:1040px;margin:auto;padding:48px 24px}h1{font-size:clamp(28px,5vw,48px);line-height:1.15}header p{color:#526878}.eyebrow{color:#00857e;font-weight:700;letter-spacing:.08em}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin:32px 0}.card{padding:24px;background:white;border:1px solid #d9e2e7;border-radius:14px}.card strong{display:block;color:#00857e;font-size:32px}.card span{display:block;font-size:15px}section{background:white;padding:24px;border-radius:14px;margin:20px 0}pre{overflow:auto;font-size:13px}a{color:#00756e}footer{font-size:14px;color:#526878}
+    </style><main><header><p class="eyebrow">TRADING SOLUTIONS LAB · EXECUTED EVIDENCE</p><h1>Faster anchored VWAP queries</h1><p>Preserve numerical behavior while avoiding repeated full-history scans.</p></header><div class="cards"><div class="card"><strong>10,000</strong><span>Synthetic bars</span></div><div class="card"><strong>150 / 150</strong><span>Range checks match</span></div><div class="card"><strong>PASS</strong><span>Historical revision check</span></div></div><section><h2>What was verified</h2><ul><li>Weighted moments avoid subtracting large raw squared sums.</li><li>O(log n) range queries and historical bar corrections.</li><li>Compared against an independent two-pass calculation.</li><li>Separate symbol instances; zero-volume and invalid-input tests.</li></ul></section><section><h2>Read the evidence</h2><details><summary>Executed results JSON</summary><pre>{
+  &quot;bars&quot;: 10000,
+  &quot;queries&quot;: 150,
+  &quot;query_match_tolerance&quot;: 1e-09,
+  &quot;all_queries_match&quot;: true,
+  &quot;revision_matches&quot;: true,
+  &quot;max_vwap_error&quot;: 1.4210854715202004e-14,
+  &quot;max_variance_error&quot;: 3.552713678800501e-15,
+  &quot;revised_vwap_error&quot;: 0.0,
+  &quot;scope&quot;: &quot;Python calculation kernel; no TradeStation/EasyLanguage, UI or live-data measurement&quot;
+}</pre></details><p><a href="results.json">Download results</a> · <a href="https://github.com/harry-trading-lab/trading-solutions-lab/tree/main/solutions">Source and reproduction instructions</a></p></section><footer>Portable Python kernel, not a TradeStation plug-in. Synthetic data. Floating-point agreement tested at 1e-9 on this fixture; timing is machine-specific. AI-assisted original work.</footer></main></html>

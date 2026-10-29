@@ -1,0 +1,11 @@
+{
+  "all_queries_match": true,
+  "bars": 10000,
+  "max_variance_error": 3.552713678800501e-15,
+  "max_vwap_error": 1.4210854715202004e-14,
+  "queries": 150,
+  "query_match_tolerance": 1e-09,
+  "revised_vwap_error": 0.0,
+  "revision_matches": true,
+  "scope": "Python calculation kernel; no TradeStation/EasyLanguage, UI or live-data measurement"
+}

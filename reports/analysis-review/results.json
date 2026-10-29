@@ -1,0 +1,80 @@
+{
+  "broken": {
+    "findings": [
+      {
+        "code": "FEATURE_UNAVAILABLE_AT_DECISION",
+        "row": 1,
+        "sample_id": "a"
+      },
+      {
+        "code": "TRAIN_LABEL_OVERLAPS_TEST",
+        "row": 0,
+        "sample_id": "a"
+      },
+      {
+        "code": "SAMPLE_ID_REUSED",
+        "sample_id": "a",
+        "splits": [
+          "train",
+          "test"
+        ]
+      },
+      {
+        "code": "PREPROCESSING_FIT_OUTSIDE_TRAIN",
+        "sample_id": "a"
+      },
+      {
+        "code": "CAUSAL_CLAIM_REQUIRES_IDENTIFICATION_REVIEW"
+      },
+      {
+        "code": "SIGNIFICANCE_NOT_RETAINED_AFTER_HOLM",
+        "test": "test_b"
+      },
+      {
+        "code": "SIGNIFICANCE_NOT_RETAINED_AFTER_HOLM",
+        "test": "test_c"
+      }
+    ],
+    "holm": {
+      "test_a": {
+        "adjusted_p": 0.03,
+        "raw_p": 0.01,
+        "reject_at_alpha": true
+      },
+      "test_b": {
+        "adjusted_p": 0.06,
+        "raw_p": 0.03,
+        "reject_at_alpha": false
+      },
+      "test_c": {
+        "adjusted_p": 0.06,
+        "raw_p": 0.04,
+        "reject_at_alpha": false
+      }
+    },
+    "limitation": "Manifest evidence only. Does not execute notebooks, detect undisclosed trials, or certify causal identification/model validity.",
+    "rows_checked": 2,
+    "status": "REVIEW_REQUIRED"
+  },
+  "clean": {
+    "findings": [],
+    "holm": {
+      "baseline": {
+        "adjusted_p": 0.3,
+        "raw_p": 0.3,
+        "reject_at_alpha": false
+      }
+    },
+    "limitation": "Manifest evidence only. Does not execute notebooks, detect undisclosed trials, or certify causal identification/model validity.",
+    "rows_checked": 2,
+    "status": "NO_FLAGS_IN_DECLARED_CHECKS"
+  },
+  "distinct_issue_classes": [
+    "CAUSAL_CLAIM_REQUIRES_IDENTIFICATION_REVIEW",
+    "FEATURE_UNAVAILABLE_AT_DECISION",
+    "PREPROCESSING_FIT_OUTSIDE_TRAIN",
+    "SAMPLE_ID_REUSED",
+    "SIGNIFICANCE_NOT_RETAINED_AFTER_HOLM",
+    "TRAIN_LABEL_OVERLAPS_TEST"
+  ]
+}

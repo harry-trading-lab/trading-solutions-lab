@@ -1,0 +1,71 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Keep calculation access explicit</title><style>
+    body{margin:0;background:#f4f7fa;color:#152b3a;font:17px/1.6 system-ui}main{max-width:1040px;margin:auto;padding:48px 24px}h1{font-size:clamp(28px,5vw,48px);line-height:1.15}header p{color:#526878}.eyebrow{color:#00857e;font-weight:700;letter-spacing:.08em}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin:32px 0}.card{padding:24px;background:white;border:1px solid #d9e2e7;border-radius:14px}.card strong{display:block;color:#00857e;font-size:32px}.card span{display:block;font-size:15px}section{background:white;padding:24px;border-radius:14px;margin:20px 0}pre{overflow:auto;font-size:13px}a{color:#00756e}footer{font-size:14px;color:#526878}
+    </style><main><header><p class="eyebrow">TRADING SOLUTIONS LAB · EXECUTED EVIDENCE</p><h1>Keep calculation access explicit</h1><p>Two running services, a public placeholder model, and an executable permission matrix.</p></header><div class="cards"><div class="card"><strong>10 / 10</strong><span>HTTP scenarios pass</span></div><div class="card"><strong>2</strong><span>Independent processes</span></div><div class="card"><strong>0</strong><span>Tokens in audit log</span></div></div><section><h2>What was verified</h2><ul><li>Developer: static fixture allowed; restricted calculation denied.</li><li>Application: calculation through gateway; direct engine denied.</li><li>Engine failure returns 502; the developer fixture stays usable.</li><li>Audit records contain role, route and status, not request bodies.</li></ul></section><section><h2>Read the evidence</h2><details><summary>Executed results JSON</summary><pre>{
+  &quot;cases&quot;: [
+    {
+      &quot;case&quot;: &quot;Developer fixture&quot;,
+      &quot;expected_status&quot;: 200,
+      &quot;observed_status&quot;: 200,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Developer live route denied&quot;,
+      &quot;expected_status&quot;: 403,
+      &quot;observed_status&quot;: 403,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Application live route&quot;,
+      &quot;expected_status&quot;: 200,
+      &quot;observed_status&quot;: 200,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Application direct engine denied&quot;,
+      &quot;expected_status&quot;: 401,
+      &quot;observed_status&quot;: 401,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Developer direct engine denied&quot;,
+      &quot;expected_status&quot;: 401,
+      &quot;observed_status&quot;: 401,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Anonymous denied&quot;,
+      &quot;expected_status&quot;: 401,
+      &quot;observed_status&quot;: 401,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Undeclared source route denied&quot;,
+      &quot;expected_status&quot;: 404,
+      &quot;observed_status&quot;: 404,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Invalid schema rejected&quot;,
+      &quot;expected_status&quot;: 400,
+      &quot;observed_status&quot;: 400,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Engine failure closed&quot;,
+      &quot;expected_status&quot;: 502,
+      &quot;observed_status&quot;: 502,
+      &quot;pass&quot;: true
+    },
+    {
+      &quot;case&quot;: &quot;Mock survives engine failure&quot;,
+      &quot;expected_status&quot;: 200,
+      &quot;observed_status&quot;: 200,
+      &quot;pass&quot;: true
+    }
+  ],
+  &quot;all_pass&quot;: true,
+  &quot;audit_records&quot;: 8,
+  &quot;tokens_in_audit&quot;: false,
+  &quot;process_boundary&quot;: &quot;Two independent Python subprocesses over localhost HTTP&quot;,
+  &quot;scope&quot;: &quot;Public placeholder model. Demonstrates application route permissions, not OS/IAM isolation or production readiness.&quot;
+}</pre></details><p><a href="results.json">Download results</a> · <a href="https://github.com/harry-trading-lab/trading-solutions-lab/tree/main/solutions">Source and reproduction instructions</a></p></section><footer>Local HTTP reference implementation. No real proprietary model. Production needs separate IAM/repositories, network isolation, TLS, rate limits, operational hardening and review.</footer></main></html>
