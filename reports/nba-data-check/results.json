@@ -1,0 +1,72 @@
+{
+  "verified_at": "2026-10-31T18:49:25.087292-04:00",
+  "season": "2024-25",
+  "method": "Read-only recheck of existing cached outputs; no new API fetch and no claim of a complete season.",
+  "rows": 69344,
+  "processed_games": 595,
+  "raw_files": 721,
+  "raw_ids_absent_from_processed": 126,
+  "processed_ids_absent_from_raw": 0,
+  "required_columns_present": true,
+  "core_field_null_counts": {
+    "game_id": 0,
+    "quarter": 0,
+    "time_remaining_seconds": 0,
+    "home_score": 0,
+    "away_score": 0
+  },
+  "output_sha256": "12ccfcab6c96d4541a8f2ebda4828c6db786e23e4baea81d70b0829bb4919000",
+  "sample_rows": [
+    {
+      "game_id": "0022400001",
+      "quarter": 1,
+      "time_remaining_seconds": 2880.0,
+      "home_score": 0,
+      "away_score": 0,
+      "home_team": "BOS",
+      "away_team": "ATL"
+    },
+    {
+      "game_id": "0022400001",
+      "quarter": 1,
+      "time_remaining_seconds": 2795.0,
+      "home_score": 3,
+      "away_score": 3,
+      "home_team": "BOS",
+      "away_team": "ATL"
+    },
+    {
+      "game_id": "0022400001",
+      "quarter": 1,
+      "time_remaining_seconds": 2744.0,
+      "home_score": 3,
+      "away_score": 5,
+      "home_team": "BOS",
+      "away_team": "ATL"
+    },
+    {
+      "game_id": "0022400001",
+      "quarter": 1,
+      "time_remaining_seconds": 2735.0,
+      "home_score": 5,
+      "away_score": 5,
+      "home_team": "BOS",
+      "away_team": "ATL"
+    },
+    {
+      "game_id": "0022400001",
+      "quarter": 1,
+      "time_remaining_seconds": 2723.0,
+      "home_score": 5,
+      "away_score": 7,
+      "home_team": "BOS",
+      "away_team": "ATL"
+    }
+  ],
+  "limits": [
+    "File coverage is not verified against the NBA season schedule.",
+    "126 raw-file game IDs are absent from processed output; the audit identifies a gap, not its cause.",
+    "Schema/null checks do not prove clock, score or home/away mapping correctness.",
+    "No private source, model features, credentials or full vendor dataset is included."
+  ]
+}
