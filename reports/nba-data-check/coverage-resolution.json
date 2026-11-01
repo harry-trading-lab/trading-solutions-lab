@@ -1,0 +1,669 @@
+{
+  "checked_on": "2026-11-01",
+  "scope": "Offline rebuild of cached V3 score-state records; separate from the original model-feature dataset. No new API download.",
+  "before": {
+    "cached_games": 595,
+    "raw_games": 721,
+    "unrepresented_games": 126,
+    "cached_rows": 69344
+  },
+  "missing_classification": {
+    "parseable_on_current_code_historical_omission_unknown": 118,
+    "metadata_failure_from_trailing_empty_score": 1,
+    "score_decrease_checks_rejected_entire_game": 7
+  },
+  "after": {
+    "accepted_games": 714,
+    "accepted_rows": 84176,
+    "additional_accepted_games": 119,
+    "review_games": 7,
+    "review_rows": 847,
+    "rejected_games": 0,
+    "unaccounted_input_games": 0
+  },
+  "verification": {
+    "regression_tests_passed": 5,
+    "last_emitted_score_matches_last_populated_source_pair_games": 721,
+    "all_input_file_hashes_unchanged": true,
+    "original_processed_file_unchanged": true,
+    "synthetic_replay_is_byte_deterministic": true
+  },
+  "limits": [
+    "The historical reason 118 games were absent cannot be established without the old run manifest or logs.",
+    "Seven games remain in a separate review dataset; score decreases may involve corrections or ordering and are not automatically repaired.",
+    "Accepted means structural replay checks passed; it is not a complete-season, event-order, team-mapping or real-world score certification.",
+    "This is a new local score-state output, not a replacement for the private training/features pipeline."
+  ],
+  "missing_game_disposition": [
+    {
+      "game_id": "0022400095",
+      "baseline_replay": "score_decrease_retained_for_review",
+      "new_status": "needs_review"
+    },
+    {
+      "game_id": "0022400303",
+      "baseline_replay": "score_decrease_retained_for_review",
+      "new_status": "needs_review"
+    },
+    {
+      "game_id": "0022400322",
+      "baseline_replay": "trailing_blank_score_metadata_failure",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400329",
+      "baseline_replay": "score_decrease_retained_for_review",
+      "new_status": "needs_review"
+    },
+    {
+      "game_id": "0022400415",
+      "baseline_replay": "score_decrease_retained_for_review",
+      "new_status": "needs_review"
+    },
+    {
+      "game_id": "0022400554",
+      "baseline_replay": "score_decrease_retained_for_review",
+      "new_status": "needs_review"
+    },
+    {
+      "game_id": "0022400694",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400695",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400696",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400697",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400698",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400699",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400700",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400701",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400702",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400703",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400704",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400705",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400706",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400707",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400708",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400709",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400710",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400711",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400712",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400713",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400714",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400715",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400716",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400717",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400718",
+      "baseline_replay": "score_decrease_retained_for_review",
+      "new_status": "needs_review"
+    },
+    {
+      "game_id": "0022400719",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400720",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400721",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400722",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400723",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400724",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400725",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400726",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400727",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400728",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400729",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400730",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400731",
+      "baseline_replay": "score_decrease_retained_for_review",
+      "new_status": "needs_review"
+    },
+    {
+      "game_id": "0022400732",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400733",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400734",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400735",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400736",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400737",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400738",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400739",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400740",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400741",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400742",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400743",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400744",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400745",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400746",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400747",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400748",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400749",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400750",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400751",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400752",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400753",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400754",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400755",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400756",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400757",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400758",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400759",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400760",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400761",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400762",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400763",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400764",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400765",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400766",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400767",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400768",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400769",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400770",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400771",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400772",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400773",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400774",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400775",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400776",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400777",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400778",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400779",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400780",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400781",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400782",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400783",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400784",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400785",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400786",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400787",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400788",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400789",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400790",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400791",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400792",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400793",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400794",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400795",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400796",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400797",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400798",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400799",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400800",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400801",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400802",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400803",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400804",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400805",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400806",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400807",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400808",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400809",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400810",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400811",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400812",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    },
+    {
+      "game_id": "0022400813",
+      "baseline_replay": "rebuild_recovered_historical_omission_unexplained",
+      "new_status": "accepted"
+    }
+  ]
+}

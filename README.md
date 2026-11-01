@@ -6,13 +6,13 @@ I help with a failing data job, an API that needs connecting, or records that do
 
 | Your problem | Evidence to inspect | What it establishes |
 |---|---|---|
-| A collector produces files, but coverage may be incomplete | [NBA cached-data check](reports/nba-data-check/) | 69,344 rows / 595 games checked; 126 raw game IDs absent from output, with that gap left open |
+| A pipeline leaves raw files out of its output | [NBA cache recovery](reports/nba-data-check/) | 126 absent games investigated; separate replay accepts 714 of 721 games and routes 7 to review, recovering 119 into the accepted set |
 | A broker API needs an order workflow | [Sandbox order evidence](reports/sandbox-api/) | Recorded submit, query, cancel and final-state checks against three vendor sandbox APIs |
 | Missing or conflicting records need locating | [Market data audit](reports/data-audit/) | Eight deliberately seeded issue classes located; clean synthetic control passes |
 
 [![Tests](https://github.com/harry-trading-lab/trading-solutions-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/harry-trading-lab/trading-solutions-lab/actions/workflows/tests.yml)
 
-The NBA audit uses an existing personal cache. The broker checks use simulated funds on real sandbox endpoints. The data-audit fixtures are synthetic. Each case states its scope and limitations.
+The NBA replay uses an existing personal cache and writes a separate score-state output. Seven games still need review; the historical omission of 118 games remains unexplained. The broker checks use simulated funds on real sandbox endpoints. The data-audit fixtures are synthetic. Each case states its scope and limitations.
 
 ## Work I take on
 
